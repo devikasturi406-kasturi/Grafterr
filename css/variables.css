@@ -1,0 +1,15 @@
+:root {
+  /* Colors */
+  --color-primary-blue: #3b82f6;
+  --color-primary-orange: #f97316;
+  --color-text-dark: #1f2937;
+  --color-text-light: #6b7280;
+  --color-bg-light: #ffffff;
+
+  /* Gradients */
+  --gradient-primary: linear-gradient(
+    90deg,
+    var(--color-primary-blue),
+    var(--color-primary-orange)
+  );
+}

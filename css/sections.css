@@ -1,0 +1,77 @@
+/* hero */
+.hero {
+  margin-top: 4rem;
+  padding: clamp(0.5rem, 1.5vw, 1.5rem) 0 1rem 1rem;
+}
+.hero-content {
+  text-align: center;
+  padding: clamp(1.5rem, 4vw, 3rem);
+  position: relative;
+}
+.headline {
+  max-width: clamp(280px, 70%, 760px);
+  margin: 0 auto;
+}
+.headline h1 {
+  line-height: 1.5;
+  font-size: clamp(2rem, 5vw, 3.5rem);
+}
+
+.headline h1 span {
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.subheadline {
+  color: var(--color-text-light);
+  max-width: clamp(260px, 55%, 600px);
+  margin: 1rem auto 0;
+}
+.subheadline p {
+  font-size: clamp(0.9rem, 1.2vw, 1.1rem);
+  line-height: 1.6;
+}
+.subheadline p span {
+  color: var(--color-text-dark);
+  font-weight: bold;
+}
+.btn button {
+  background: var(--gradient-primary);
+  margin-top: 1.5rem;
+  padding: clamp(0.6rem, 1vw, 1rem) clamp(1.5rem, 3vw, 2.5rem);
+  border-radius: 30px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: clamp(0.8rem, 1vw, 1rem);
+}
+/*  features*/
+.features {
+  padding: clamp(0.2rem, 1vw, 1rem) 1rem;
+}
+.features-header {
+  text-align: center;
+  padding: clamp(0.5rem, 2vw, 1.5rem);
+  position: relative;
+  overflow: hidden;
+}
+.title {
+  max-width: clamp(280px, 65%, 760px);
+  margin: 0 auto;
+}
+.title h1 {
+  line-height: 1.2;
+  font-size: clamp(1rem, 4vw, 2.7rem);
+}
+.title h1 span {
+  color: var(--color-text-light);
+}
+.subtitle {
+  max-width: clamp(260px, 90%, 600px);
+  margin: 1rem auto 0;
+}
+.subtitle p {
+  color: var(--color-text-light);
+  font-size: clamp(0.8rem, 2vw, 1rem);
+  line-height: 1.6;
+}

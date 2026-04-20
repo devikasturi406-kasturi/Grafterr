@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: var(--color-text-dark);
+  line-height: 1.5;
+  min-height: 100vh;
+  text-align: center;
+}
+.container {
+  width: 100%;
+  max-width: clmap(320px, 75vw, 1100px);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
